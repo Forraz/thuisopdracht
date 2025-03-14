@@ -1,0 +1,33 @@
+{
+    "questions": [
+        "Wat is jouw ervaring met programmeren, maken van websites of het maken van apps?",
+        "Als je al ervaring hebt, geef dan een aantal voorbeelden van wat je hebt gemaakt",
+        "Van welke software maak je gebruik om zelf programmas, websites of apps te maken?",
+        "Zoek uit welke programmeertalen gebruikt worden voor het maken van websites. Geef aan welke programmeertaal de toekomst heeft en waarom.",
+        "Zoek uit welke programmeertalen gebruikt worden voor het maken van apps voortablets en smartphones. Welke zou je zelf gebruiken?",
+        "Beschrijf welke programmeertalen nu het meest gebruikt worden voor het maken van Windowsapplicaties. Welke zou je zelf gebruiken?",
+        "Wat voor werk zie jij jezelf later doen?",
+        "Had je in het VMBO een stage? Zo ja, welke en wat heb je daar van geleerd? Welke invloed had dat op jouw keuze voor deze opleiding?",
+        "Welke werkzaamheden zou jij wel/nooit willen doen? Wat is de reden?",
+        "Heb je een bijbaantje? Wat is daar wel/niet leuk aan?",
+        "Wat zeggen anderen over wat ze goed bij jou vinden passen (qua interesse en kwaliteiten)?",
+        "Waar droom je van om in de toekomst te gaan doen? Waarin zou je willen uitblinken?",
+        "Waar was je trots op?"
+    ],
+    "answers": [
+        "Ik heb ervaring met Python, C++, C# en Rust. Met Python schreef ik backends (Django, FastAPI), met C++ en Rust ontwikkelde ik verschillende low-level applicaties. Ik heb ook geprobeerd een besturingssysteemkernel in Rust te schrijven. Daarnaast heb ik ervaring met Unity en Godot",
+        "Een poging om een kernel te maken:<br>https://github.com/Forraz/mos<br><br>Een backend voor een simpele task manager-applicatie/website:<br>https://github.com/Forraz/TaskManager",
+        "VS Code<br>Neovim",
+        "Frontend: JavaScript<br>Backend: JavaScript/TypeScript, PHP, Python, C# .NET, Java, enz. Er zijn backend-frameworks voor bijna elke taal",
+        "Swift, Kotlin, Java, JavaScript/TypeScript, C#, Rust<br>Ik zou JavaScript/TypeScript gebruiken, omdat het universeel is, of Rust, omdat ik daar al ervaring mee heb",
+        "C# .NET, C++, Rust, JavaScript/TypeScript (Electron)<br>Het hangt af van de applicatie die ik wil schrijven. C# heeft de meeste ondersteuning, C++ en Rust zijn snel, en met Electron kan ik HTML/CSS gebruiken.<br>Ik denk dat Rust de beste optie is, omdat het snel en veilig is en met Tauri kan ik HTML/CSS gebruiken om de UI te bouwen",
+        "Applicatieontwikkeling",
+        "Ik had een stage als vulploegmedewerker bij Albert Heijn. Ik heb geleerd dat ik geen vulploegmedewerker wil zijn. Ik denk niet dat mijn stage invloed had op mijn keuze",
+        "Ik zou graag willen werken als softwareontwikkelaar, omdat ik het leuk vind om complexe problemen op te lossen en efficiënte code te schrijven. Ik zou geen saaie, repetitieve taken willen doen, zoals data-invoer, omdat het me niet uitdaagt",
+        "Ik heb geen bijbaantje",
+        "Ze zeggen niks",
+        "Ik droom van een interessante en hoogbetaalde baan te hebben",
+        "Dat weet ik niet"
+
+    ]
+}

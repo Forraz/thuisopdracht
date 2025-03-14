@@ -1,0 +1,152 @@
+:root {
+    --background-color: #121212;
+    --primary-color: #282828;
+    --secondary-color: #3f3f3f;
+    --button-color: #5e8736;
+    --button-hover-color: #6f9e40;
+    --button-text-color: #121212;
+    --text-color: #e6e6e6;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.flex-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    height: 100vh;
+
+}
+
+#main-window {
+
+    height: 90%;
+    width: 70%;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.jetbrains-mono-bold {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.jetbrains-mono-normal {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+  
+
+.question-item {
+
+    height: 12%;
+    width: 95%;
+    border-radius: 80px;
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+
+#question {
+    font-size: 30px;
+    color: var(--text-color);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer-item {
+
+    height: 60%;
+    width: 95%;
+    border-radius: 80px;
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+#answer {
+    font-size: 25px;
+    color: var(--text-color);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    border: 4px solid var(--background-color);
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+}
+
+#buttons-container {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.button {
+    border-radius: 80px;
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    height: 80%;
+    width: 20%;
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--button-hover-color);
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#return-button {
+    width: 25%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+
